@@ -1,17 +1,4 @@
-<!doctype html>
-<html lang="vi">
-<head>
-  <meta charset="utf-8">
-  <title>README - Lab MCU</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.5; padding: 20px; max-width: 800px; margin: auto; }
-    h1 { color: #005b96; }
-    h2 { color: #005b96; margin-top: 1rem; }
-    ul { margin-top: 0.3rem; }
-  </style>
-</head>
-<body>
-  <h1>Lab Vi điều khiển - LED & 7 Segment</h1>
+<h1>Lab Vi điều khiển - LED & 7 Segment</h1>
 
   <h2>Mục tiêu</h2>
   <ul>
