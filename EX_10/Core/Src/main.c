@@ -70,7 +70,7 @@ uint16_t LED_Pin[12] = {
     a_Pin, b_Pin, c_Pin, d_Pin, e_Pin, f_Pin,
     g_Pin, h_Pin, i_Pin, j_Pin, k_Pin, l_Pin
 };
-int h=0, m=0, s=0;
+int h=3, m=45, s=30;
 void clearAllClock();
 void setNumberOnClock(int num);
 void clearNumberOnClock(int num);
@@ -114,10 +114,10 @@ int main(void)
 	  int hled=h%12;
 	  int mled=m/5;
 	  int sled=s/5;
-	  setNumberOnClock(hled);
+	      setNumberOnClock(hled);
 	      setNumberOnClock(mled);
 	      setNumberOnClock(sled);
-	      HAL_Delay(1000);
+	      HAL_Delay(100);
 	      s++;
 	      if(s>=60){
 	    	  s=0;
