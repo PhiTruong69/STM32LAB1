@@ -1,6 +1,6 @@
 <h1>Lab Vi điều khiển - LED & 7 Segment</h1>
 
-<h2>🎯 Mục tiêu</h2>
+<h2> Mục tiêu</h2>
 <ul>
   <li>Làm quen với <strong>STM32CubeIDE</strong> và cách sinh mã nguồn cơ bản.</li>
   <li>Thực hành điều khiển LED đơn, LED 7 đoạn (common anode) và kỹ thuật multiplexing.</li>
@@ -8,14 +8,14 @@
   <li>Mô phỏng chương trình trên <strong>Proteus</strong> bằng file HEX sinh từ CubeIDE.</li>
 </ul>
 
-<h2>🛠 Công cụ sử dụng</h2>
+<h2> Công cụ sử dụng</h2>
 <ul>
   <li><strong>IDE:</strong> STM32CubeIDE (cấu hình chân, build HEX).</li>
   <li><strong>Phần mềm mô phỏng:</strong> Proteus.</li>
   <li><strong>Vi điều khiển:</strong> STM32F103C6.</li>
 </ul>
 
-<h2>📌 Nội dung từng bài</h2>
+<h2> Nội dung từng bài</h2>
 
 <h3>Bài 1: Chuyển đổi trạng thái LED</h3>
 <ul>
@@ -60,7 +60,7 @@
   <li>Các hàm và sơ đồ Proteus được hiện thực chung trong thư mục <code>EX_10</code>.</li>
 </ul>
 
-<h2>✅ Kết quả mong đợi</h2>
+<h2> Kết quả mong đợi</h2>
 <ul>
   <li>Sử dụng thành thạo <strong>STM32CubeIDE</strong> để viết các chương trình cơ bản.</li>
   <li>LED đơn và LED 7 đoạn hiển thị chính xác.</li>
